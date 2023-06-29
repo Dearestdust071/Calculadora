@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="6p5l26.ico" type="image/x-icon"/>
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+
+   
+    
+    <div class="bgAnimation" id="bgAnimation">
+      <div class="backgroundAnim"></div>
+    </div>
+    
+    <img src="descarga-removebg-preview.svg" alt="" class="spider">
+    
+    <div class="calculadora">
+      <div id="pantalla" class="">
+        <input type="text" id="entrada" readonly/>
+        <input type="button" value="/" class="boton general" id="division" />
+      </div>
+
+      <div class="columna">
+        <input type="button" value="7" class="numero general" />
+        <input type="button" value="8" class="numero general" />
+        <input type="button" value="9" class="numero general" />
+        <input type="button" value="+" class="boton general" id="sumar" />
+      </div>
+      <div class="columna">
+        <input type="button" value="4" class="numero general" />
+        <input type="button" value="5" class="numero general" />
+        <input type="button" value="6" class="numero general" />
+        <input type="button" value="-" class="boton general" id="restar" />
+      </div>
+      <div class="columna">
+        <input type="button" value="1" class="numero general" />
+        <input type="button" value="2" class="numero general" />
+        <input type="button" value="3" class="numero general" />
+        <input type="button" value="*" class="boton general" id="multiplicar" />
+      </div>
+
+      <div class="columna">
+        <input type="button" value="0" class="numero general" />
+        <input type="button" value="." class="punto general " id="punto" />
+        <input type="button" value="AC" id="AC" class="boton general" />
+        <input type="button" value="=" class="general" id="igual" />
+      </div>
+
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
